@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Task Tracker</title>
+    <link rel="stylesheet" href="styles.css" />
+</head>
+
+<body>
+    <header>
+        <img class="title" src="images/logo.png" alt="logo">
+    </header>
+    <main class="app">
+        <section class="create-todo">
+            <h3>Hello!</h3>
+            <form id="new-todo-form">
+                <input type="text" placeholder="What do you have planned today?" name="content" id="content" required />
+                <input type="submit" class="button" value="+" />
+            </form>
+        </section>
+        <section class="todo-list">
+            <h4>Tasks</h4>
+            <div class="list" id="todo-list"></div>
+        </section>
+    </main>
+    <script src="script.js"></script>
+</body>
+
+</html>

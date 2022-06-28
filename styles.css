@@ -1,0 +1,125 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+    /* background-color: rgba(248, 174, 148, 0.286); */
+    background-image: url("wallpaper.png")
+}
+
+.title {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 50%;
+    height: auto;
+}
+
+.app {
+    background-color: rgba(137, 171, 155, 0.2);
+    height: auto;
+    max-width: 100vh;
+    padding: 20px;
+    border-radius: 50px;
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+section {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+}
+
+h3 {
+    color: rgb(232, 157, 142);
+    font-size: 2rem;
+    font-weight: 400;
+    margin-bottom: 0.5rem;
+    text-align: center;
+}
+
+h4 {
+    color: rgb(133, 157, 123);
+    font-size: 2rem;
+    font-weight: 400;
+    margin-bottom: 0.5rem;
+    text-align: center;
+}
+
+
+.create-todo input[type="text"] {
+    width: 80%;
+    font-size: 1.125rem;
+    padding: 10px;
+    border: none;
+    border-radius: 0.5rem;
+    margin-bottom: 1.5rem;
+}
+
+.create-todo input[type="submit"] {
+    width: 10%;
+    font-size: 1.125rem;
+    padding: 10px;
+    color: rgb(81, 108, 86);
+    font-weight: 700;
+    background-color: rgba(163, 189, 165, 0.581);
+    border-radius: 0.5rem;
+    border: none;
+    cursor: pointer;
+}
+
+.todo-list .todo-item {
+    display: flex;
+    align-items: center;
+    max-width: 90%;
+    background-color: rgba(255, 255, 255, 0.391);
+    padding: 1rem;
+    border-radius: 0.5rem;
+    margin-bottom: 1rem;
+}
+
+.todo-item .todo-content {
+    flex: 1 1 0%;
+}
+
+.todo-item .todo-content input {
+    font-size: 1.125rem;
+    border: none;
+    background: none;
+}
+
+.todo-item .actions {
+    display: flex;
+    align-items: center;
+}
+
+.todo-item .actions button {
+    display: block;
+    padding: 0.5rem;
+    border-radius: 0.25rem;
+    cursor: pointer;
+    transition: 0.2s ease-in-out;
+}
+
+.todo-item .actions button:hover {
+    opacity: 0.75;
+}
+
+.todo-item .actions .edit {
+    margin-right: 0.5rem;
+    background-color: rgba(163, 189, 165, 0.581);
+    color: rgb(81, 108, 86);
+    border: none;
+}
+
+.todo-item .actions .delete {
+    background-color: rgba(163, 189, 165, 0.581);
+    color: rgb(81, 108, 86);
+    border: none;
+}
